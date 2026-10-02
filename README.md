@@ -1,4 +1,4 @@
-```markdown
+
 # ⚓ Batalha Naval (Java Swing)
 
 ![Java](https://img.shields.io/badge/Java-17-orange.svg)
@@ -39,29 +39,21 @@ Jogo clássico de **Batalha Naval** desenvolvido em Java com interface gráfica 
 ### Passos para Execução
 
 1. **Clonar o repositório:**
-   ```bash
+   ```
    git clone [https://github.com/SEU-USUARIO/NOME-DO-REPOSITORIO.git](https://github.com/SEU-USUARIO/NOME-DO-REPOSITORIO.git)
    cd NOME-DO-REPOSITORIO
 
-```
-
 2. **Compilar e executar via Maven:**
-```bash
+```
 mvn clean compile exec:java
 
 ```
 
 
 3. **(Opcional) Gerar e executar o arquivo `.jar`:**
-```bash
 mvn clean package
 java -jar target/Trabalho-1.0-SNAPSHOT.jar
 
-```
-
-
-
----
 
 ## 📁 Estrutura do Projeto
 
@@ -91,10 +83,6 @@ src/
 
 Este projeto foi desenvolvido exclusivamente para fins acadêmicos e educacionais.
 
-```
-
----
-
 ### Principais melhorias aplicadas
 
 * **Correção de Links e Markdown:** Removido a sintaxe Markdown de link (`[...]()`) de dentro do bloco de código `bash` na etapa de clone, o que quebrava a formatação do terminal.
@@ -102,5 +90,3 @@ Este projeto foi desenvolvido exclusivamente para fins acadêmicos e educacionai
 * **Limpeza de Caracteres Especiais:** Removidos espaços não-inquebráveis (`\u00a0`) que afetavam a indentação das listas.
 * **Aprimoramento da Árvore de Arquivos:** Ajustada a representação visual da estrutura `src/` para manter o padrão Maven (`src/main/java/...`).
 * **Padronização do Texto:** Ajustes pontuais de concordância, clareza nas descrições da IA e inclusão da verificação de variáveis de ambiente no pré-requisito do Java.
-
-```
